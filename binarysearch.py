@@ -1,7 +1,7 @@
 def BinarySearch(list, key):
     low = 0
     high  = len(list1)-1
-    Found = False
+    Found = False#default
     while low <= high and not Found:
         mid = (low+high)//2
         if key == list1[mid]:
@@ -13,7 +13,7 @@ def BinarySearch(list, key):
     if Found == True:
         print("Key Found")
     else:
-        print("Key is not Found")
+        print("Key not Found")
 
 #To get value from Users
 num = int(input("Enter the list lenght:"))
